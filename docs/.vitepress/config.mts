@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "code-copy",
   title: "代码小抄",
   description: "代码小抄",
   head: [["link", { rel: "icon", type: "image/png", href: "/logo-nobg.png" }]],
