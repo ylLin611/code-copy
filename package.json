@@ -1,0 +1,24 @@
+{
+  "name": "code-copy",
+  "version": "0.1.0",
+  "description": "代码小抄，记录杂七杂八的东西",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 8888",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "vue",
+    "next",
+    "html/css",
+    "js",
+    "工具"
+  ],
+  "author": "Lin",
+  "license": "ISC",
+  "packageManager": "pnpm@10.9.0",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
